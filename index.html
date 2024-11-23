@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin Wheel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/pplg.png" type="image/x-icon">
+</head>
+
+<body>
+    <h4 class="absolute">Total Spin : <span id="totalspin">1</span></h4>
+    <!-- <img class="logo" src="./assets/nesabatecno.png" alt="" width="15%"> -->
+    <img class="logo-pplg" src="assets/pplg.png" alt="" width="50">
+
+    <div class="wrapper">
+        <button id="spin">Spin</button>
+        <span class="arrow"></span>
+        <div class="container">
+            <div class="one"><span>Ipa</span></div>
+            <div class="two"><span>Matematika</span></div>
+            <div class="three"><span>RPL</span></div>
+            <div class="four"><span>Bhs. Indonesia</span></div>
+            <div class="five"><span>PJOK</span></div>
+            <div class="six"><span>Informatika</span></div>
+            <div class="seven"><span>Bhs. Inggris</span></div>
+            <div class="eight"><span>Pend. Agama</span></div>
+        </div>
+    </div>
+
+    <div id="prize-popup" class="popup hidden">
+        <img class="close_btn" id="close" src="assets/close.png" alt="" width="30">
+        <h3>Kategori</h3>
+        <span id="prize-text"></span>
+        <h3 id="judul">Soal</h3>
+        <p id="question"></p>
+        <button class="btn-answer hidden" id="btn_answer">Lihat</button>
+        <p id="answer" class="hidden"></p>
+        <h5 id="timer">10</h5>
+    </div>
+
+    <footer>
+        <marquee behavior="" direction="left" class="footer">2024 &copy; Copyright Daka Wicaksana </marquee>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
